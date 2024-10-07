@@ -74,6 +74,19 @@ public class Main {
         } else if (numberOfPeople > 60 && numberOfPeople <= 102) {
             System.out.println("В вагоне остались только стоячие места.");
         } else System.out.println("Вагон полностью забит.");
+        System.out.println();
+
+        //задание 7
+
+        int one = 11, two = 22, three = 33, res;
+
+        if (one > two && one > three) {
+            res = one;
+        } else if (two > one && two > three) {
+            res = two;
+        } else res = three;
+        System.out.println(res);
+
 
     }
 }
