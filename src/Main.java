@@ -66,7 +66,14 @@ public class Main {
                     ", то ему можно кататься на аттракционе без сопровождения.");
         System.out.println();
 
+        //задание 6
 
+        int numberOfPeople = 103;
+        if (numberOfPeople <= 60) {
+            System.out.println("В вагоне есть и сидячие и стоячие места.");
+        } else if (numberOfPeople > 60 && numberOfPeople <= 102) {
+            System.out.println("В вагоне остались только стоячие места.");
+        } else System.out.println("Вагон полностью забит.");
 
     }
 }
