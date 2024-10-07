@@ -51,6 +51,22 @@ public class Main {
             messageYearsOld = "ему пока можно никуда не ходить.";
         }
         System.out.println("Если возраст человека равен " + yearsOld + ", то " + messageYearsOld);
+        System.out.println();
+
+        //задание 5
+
+        int ageOfTheChild = 14;
+        if (ageOfTheChild < 5) {
+            System.out.println("Если возраст ребенка равен " + ageOfTheChild +
+                    ", то ему нельзя кататься на аттракционе.");
+        } else if (ageOfTheChild >= 5 && ageOfTheChild < 14) {
+            System.out.println("Если возраст ребенка равен " + ageOfTheChild +
+                    ", то ему можно кататься на аттракционе в сопровождении.");
+        } else System.out.println("Если возраст ребенка равен " + ageOfTheChild +
+                    ", то ему можно кататься на аттракционе без сопровождения.");
+        System.out.println();
+
+
 
     }
 }
