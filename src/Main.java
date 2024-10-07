@@ -6,7 +6,7 @@ public class Main {
         int age = 18;
         String message;
         boolean isAdult = age >= 18;
-        if(isAdult){
+        if (isAdult) {
             message = "он совершеннолетний";
         } else {
             message = "он не достиг совершеннолетия, нужно немного подождать";
@@ -16,6 +16,11 @@ public class Main {
 
         //задание 2
 
-
+        int temperature = 4;
+        if (temperature < 5) {
+            System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
+        } else {
+            System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
+        }
     }
 }
